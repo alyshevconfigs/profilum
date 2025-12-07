@@ -16,12 +16,11 @@ import Contacts from './pages/Contacts';
 import { useState, useEffect } from 'react';
 
 function App() {
-  // Проверяем сохранённую тему или системную
+
   const getInitialTheme = () => {
     const savedTheme = localStorage.getItem('theme');
     if (savedTheme) return savedTheme;
 
-    // fallback на системную тему
     const prefersLight = window.matchMedia('(prefers-color-scheme: light)').matches;
     return prefersLight ? 'light' : 'dark';
   };
