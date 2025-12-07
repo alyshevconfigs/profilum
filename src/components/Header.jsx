@@ -139,23 +139,23 @@ const Header = ({ toggleTheme, theme }) => {
         </Link>
 
         <Navigation open={menuOpen}>
-          <NavItem to="/" end>Главная</NavItem>
-          <NavItem to="/search-parts">Запчасти</NavItem>
-          <NavItem to="/diagnostics">Диагностика</NavItem>
-          <NavItem to="/booking">Запись на ремонт</NavItem>
-          <NavItem to="/services">Услуги</NavItem>
-          <NavItem to="/about">О компании</NavItem>
-          <NavItem to="/contacts">Контакты</NavItem>
+          <NavItem to="/profilum" end>Главная</NavItem>
+          <NavItem to="/profilum/search-parts">Запчасти</NavItem>
+          <NavItem to="/profilum/diagnostics">Диагностика</NavItem>
+          <NavItem to="/profilum/booking">Запись на ремонт</NavItem>
+          <NavItem to="/profilum/services">Услуги</NavItem>
+          <NavItem to="/profilum/about">О компании</NavItem>
+          <NavItem to="/profilum/contacts">Контакты</NavItem>
         </Navigation>
 
         <HeaderActions>
-          <ActionButton to="/favorites">
+          <ActionButton to="/profilum/favorites">
             <Heart size={20} />
           </ActionButton>
-          <ActionButton to="/cart">
+          <ActionButton to="/profilum/cart">
             <ShoppingCart size={20} />
           </ActionButton>
-          <ActionButton to="/profile">
+          <ActionButton to="/profilum/profile">
             <User size={20} />
           </ActionButton>
 

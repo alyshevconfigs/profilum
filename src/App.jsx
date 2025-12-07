@@ -44,15 +44,15 @@ function App() {
         <Header toggleTheme={toggleTheme} theme={theme} />
         <main>
           <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/search-parts" element={<SearchParts />} />
-            <Route path="/product/:id" element={<Product />} />
-            <Route path="/diagnostics" element={<Diagnostics />} />
-            <Route path="/booking" element={<Booking />} />
-            <Route path="/profile" element={<Profile />} />
-            <Route path="/services" element={<Services />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/contacts" element={<Contacts />} />
+            <Route path="/profilum/" element={<Home />} />
+            <Route path="/profilum/search-parts" element={<SearchParts />} />
+            <Route path="/profilum/product/:id" element={<Product />} />
+            <Route path="/profilum/diagnostics" element={<Diagnostics />} />
+            <Route path="/profilum/booking" element={<Booking />} />
+            <Route path="/profilum/profile" element={<Profile />} />
+            <Route path="/profilum/services" element={<Services />} />
+            <Route path="/profilum/about" element={<About />} />
+            <Route path="/profilum/contacts" element={<Contacts />} />
           </Routes>
         </main>
         <Footer />

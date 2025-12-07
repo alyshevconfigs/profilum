@@ -64,18 +64,18 @@ const Footer = () => {
         <FooterSection>
           <h3>Меню</h3>
           <ul>
-            <li><a href="/">Главная</a></li>
-            <li><a href="/search-parts">Запчасти</a></li>
-            <li><a href="/diagnostics">Диагностика</a></li>
-            <li><a href="/booking">Запись на ремонт</a></li>
-            <li><a href="/services">Услуги</a></li>
+            <li><a href="/profilum">Главная</a></li>
+            <li><a href="/profilum/search-parts">Запчасти</a></li>
+            <li><a href="/profilum/diagnostics">Диагностика</a></li>
+            <li><a href="/profilum/booking">Запись на ремонт</a></li>
+            <li><a href="/profilum/services">Услуги</a></li>
           </ul>
         </FooterSection>
         <FooterSection>
           <h3>Компания</h3>
           <ul>
-            <li><a href="/about">О нас</a></li>
-            <li><a href="/contacts">Контакты</a></li>
+            <li><a href="/profilum/about">О нас</a></li>
+            <li><a href="/profilum/contacts">Контакты</a></li>
             {/* <li><a href="/blog">Блог</a></li> */}
             <li><a href="#">FAQ</a></li>
           </ul>
