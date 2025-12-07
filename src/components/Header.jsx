@@ -133,7 +133,7 @@ const Header = ({ toggleTheme, theme }) => {
   return (
     <HeaderContainer>
       <HeaderContent>
-        <Link to="/">
+        <Link to="/profilum">
           <Logo src={theme === 'light' ? logo : darklogo} alt="Avtohaus Logo" />
         </Link>
 
